@@ -9,7 +9,6 @@ gem 'sqlite3'
 gem 'devise'
 gem 'activeadmin', '0.6.0'
 gem 'simple_form'
-gem 'formtastic', '~> 3.0'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

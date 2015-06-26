@@ -10,16 +10,29 @@ ActiveAdmin.register_page "Dashboard" do
       end
     end
 
-    columns do
-      column do
-        panel "Recent Posts" do
+    tabs do
+      tab 'first' do
+        columns do
+          column do
+            panel "Recent Posts" do
           
+            end
+          end
+
+          column do
+           panel "Info" do
+            para "Welcome to ActiveAdmin."
+            end
+          end
         end
       end
-
-      column do
-        panel "Info" do
-          para "Welcome to ActiveAdmin."
+      tab 'second' do
+        columns do
+          column do
+           panel "Info" do
+            para "Welcome to ActiveAdmin."
+            end
+          end
         end
       end
     end
